@@ -2,23 +2,35 @@
 @import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl');
 
 
-.wrap{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
+
+
 
 .headerWrap{
     display: flex;
     justify-items: center;
+    justify-content: space-between;
     padding: 82px 70px 28px 70px;
 
 
 }
 
-
-
 .sectionWrap{
     padding: 0 70px 0 70px;
     width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .headerWrap{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .headerWrap{
+        padding: 60px 35px 28px 35px;
+    }
+
+    .sectionWrap{
+        padding: 0 35px 0 35px;
+    }
 }

@@ -4,6 +4,13 @@
     padding-top: 25px;
 }
 
+@media only screen and (max-width: 1024px) {
+    .chartWrap{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
 img{
     width: 100%;
 }

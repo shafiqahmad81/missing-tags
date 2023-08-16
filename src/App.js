@@ -1,17 +1,13 @@
 import Chart from "./component/chart/Chart";
-import Logo from "./component/logo/Logo";
-import Swich from "./component/swich/Swich";
 import ChartImage from "../src/image/chart.png";
 import "./index.css";
+import Header from "./component/header/Header";
 
 function App() {
   return (
     <div className="App">
       <header className="headerWrap">
-        <div className="wrap">
-          <Swich />
-          <Logo />
-        </div>
+        <Header />
         <Chart />
       </header>
       <section className="sectionWrap">

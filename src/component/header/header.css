@@ -1,0 +1,28 @@
+
+@media only screen and (max-width: 768px) {
+    .wrap{
+        display: none;
+    }
+    .wrap-resposive{
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .wrap{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .wrap-resposive{
+       display: none; 
+    }
+}
+
+.headerWrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
